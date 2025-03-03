@@ -28,12 +28,9 @@ This pipeline is designed with modularity and reproducibility in mind, allowing 
 - **Tools:**
   - [Git](https://git-scm.com/)
   - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
-  - [BWA](http://bio-bwa.sourceforge.net/)
   - [Samtools](http://www.htslib.org/)
   - [Picard](https://broadinstitute.github.io/picard/)
   - [GATK](https://gatk.broadinstitute.org/) or [FreeBayes](https://github.com/freebayes/freebayes)
-  - [Annovar](http://www.openbioinformatics.org/annovar/) or [SnpEff](https://pcingola.github.io/SnpEff/)
-- **Optional:** [Docker](https://www.docker.com/) for containerized execution
 
 ## Installation
 
