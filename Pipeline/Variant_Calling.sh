@@ -42,6 +42,10 @@ log "FastQC on trimmed FASTQ files complete."
 cd ..
 
 # Alignment with Bowtie2.
+log "Build an index for the reference genome"
+bowtie2-build ../Reference_Genome/Human/GCF_000001405.40_GRCh38.p14_genomic.fna.gz ../Reference_Genome/Human/index
+log "Index successfully built on the reference genome"
+
 log "Changing to Trimmed directory for alignment..."
 cd Trimmed
 log "Running Bowtie2 alignment..."
