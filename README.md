@@ -32,6 +32,24 @@ This pipeline is designed with modularity and reproducibility in mind, allowing 
   - [Picard](https://broadinstitute.github.io/picard/)
   - [GATK](https://gatk.broadinstitute.org/) or [FreeBayes](https://github.com/freebayes/freebayes)
 
+## Repository Structure
+
+```plaintext
+├── Environment
+│   ├── Environment.yml
+│   └── ReadME.pdf
+├── Pipeline
+│   └── Variant_Calling.sh
+├── README.md
+├── docs
+│   └── ToolsandSteps.pdf
+└── results
+    ├── ERR13985875_1_fastqc.pdf
+    ├── ERR13985875_1_paired_fastqc (Trimmed).pdf
+    ├── ERR13985875_2_fastqc.pdf
+    └── ERR13985875_2_paired_fastqc (Trimmed).pdf
+```
+
 ## Installation
 
 1. **Clone the Repository:**
